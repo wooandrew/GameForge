@@ -41,7 +41,7 @@ export default function Home() {
           <h1 className="pl-5 bops-one text-5xl">About GameForge</h1>
           <br></br>
           <p className="w-4/6 pl-5"> 
-          GameForge was developed as part of the "A Tool for Generating Concepts" assignment at 
+          GameForge was developed as part of the &quot;A Tool for Generating Concepts&quot; assignment at 
           GeorgiaTech&apos;s Computer Science Special Topics: Creative Design Practice (CS 8803 CDP) 
           course. The objective of the assigment was to create a webpage that loads words or phrases 
           from three categories into a phrase or sentence that expresses a novel idea.
@@ -49,16 +49,16 @@ export default function Home() {
           <br></br>
           <p className="w-4/6 pl-5">
             I decided to create a web app that would generate topics for game jams. I took inspiration
-            from the Ludum Dare's approach for their game james, where users are given a theme to create
-            a game from scratch. I wanted to make a "theme generator" that would give users inspiration
+            from the Ludum Dare&apos;s approach for their game james, where users are given a theme to create
+            a game from scratch. I wanted to make a &quot;theme generator&quot; that would give users inspiration
             for developing new games.
           </p>
           <br></br>
           <p className="w-4/6 pl-5">
-            The web app is built using Next.js and Tailwind CSS. The source code is available on GitHub
-            and is licensed under the MIT license and is hosted on Vercel. This app uses OpenAI's GPT-4
-            generative AI model to generate the suggestions for genre, theme, and goal. Further, DALL-E 
-            3 is used to generate the images based on the suggestions.
+            The web app is built using Next.js and Tailwind CSS. The source code is available on GitHub,
+            licensed under the MIT license, and hosted on Vercel. This app uses OpenAI&apos;s GPT-4 generative 
+            AI model to generate the suggestions for genre, theme, and goal. Further, DALL-E 3 is used to 
+            generate the images based on the suggestions.
           </p>
           <br></br>
           <p className="w-4/6 pl-5">
