@@ -11,28 +11,29 @@ const Suggestion: React.FC<SuggestionProps> = ({section}) => {
 
   const [apiResult, setApiResult] = useState<string | null>(null);
 
-  const handleSubmit = async (value: string) => {
-    const res = await fetch("/api/suggestion", {
-      method: "POST",
-      body: JSON.stringify({ content: value }),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+  // const handleSubmit = async (value: string) => {
+  //   const res = await fetch("/api/suggestion", {
+  //     method: "POST",
+  //     body: JSON.stringify({ content: value }),
+  //     headers: {
+  //       "Content-Type": "application/json",
+  //     },
+  //   });
 
-    if (res.ok) {
-      const result = await res.text();
-      setApiResult(result); // Assuming your API response has a 'content' property
-    } else {
-      console.error("API request failed");
-    }
-  };
+  //   if (res.ok) {
+  //     const result = await res.text();
+  //     setApiResult(result); // Assuming your API response has a 'content' property
+  //   } else {
+  //     console.error("API request failed");
+  //   }
+  // };
 
   return (
     <div className="text-center">
       <p className="font-bold text-lg">{section}</p>
       {apiResult !== null ? (
-        <p dangerouslySetInnerHTML={{ __html: apiResult }} />
+        //<p dangerouslySetInnerHTML={{ __html: apiResult }} />
+        <p>Nerd</p>
       ) : (
         <p>Press Generate!</p>
       )}

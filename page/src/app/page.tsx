@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Suggestion from "./components/suggestion";
 
 // import css
