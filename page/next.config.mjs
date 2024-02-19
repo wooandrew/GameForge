@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: 'https://cs8803.wooandrew.dev/gameforge',
+  basePath: '/gameforge',
+  assetPrefix: 'htts://cs8803.wooandrew.dev/',
 }
 
 export default nextConfig;
