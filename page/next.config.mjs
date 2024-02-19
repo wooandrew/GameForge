@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: '/gameforge',
+  assetPrefix: '',
 }
 
 export default nextConfig;
